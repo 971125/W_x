@@ -1,0 +1,39 @@
+<!--miniprogram/pages/editUserinfo/edirUserinfo.wxml-->
+<view class="editUserInfo">
+  <navigator url="./head/head" open-type="navigate" hover-class="navigator-hover">
+      <view class="edirUserinfo-list-item">
+        <text>修改头像</text>
+        <text class="iconfont iconxialayou"></text>
+      </view>
+  </navigator>
+  <navigator url="./name/name" open-type="navigate" hover-class="navigator-hover">
+      <view class="edirUserinfo-list-item">
+        <text>修改昵称</text>
+        <text class="iconfont iconxialayou"></text>
+      </view>
+  </navigator>
+  <navigator url="./sign/sign" open-type="navigate" hover-class="navigator-hover">
+      <view class="edirUserinfo-list-item">
+        <text>修改个性签名</text>
+        <text class="iconfont iconxialayou"></text>
+      </view>
+  </navigator>
+  <navigator url="./location/location" open-type="navigate" hover-class="navigator-hover">
+      <view class="edirUserinfo-list-item">
+        <text>位置权限</text>
+        <text class="iconfont iconxialayou"></text>
+      </view>
+  </navigator>
+  <navigator url="./phone/phone" open-type="navigate" hover-class="navigator-hover">
+      <view class="edirUserinfo-list-item">
+        <text>设置手机号  <text class="edirUserinfo-list-tips">仅好友可见</text></text>
+        <text class="iconfont iconxialayou"></text>
+      </view>
+  </navigator>
+  <navigator url="./wx/wx" open-type="navigate" hover-class="navigator-hover">
+      <view class="edirUserinfo-list-item">
+        <text>设置微信号  <text class="edirUserinfo-list-tips">仅好友可见</text></text>
+        <text class="iconfont iconxialayou"></text>
+      </view>
+  </navigator>
+</view>

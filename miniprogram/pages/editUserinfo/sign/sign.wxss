@@ -1,0 +1,6 @@
+/* miniprogram/pages/editUserinfo/sign/sign.wxss */
+textarea{
+  border:1px dashed #6495ED;
+  border-left: none;
+  width:100%
+}

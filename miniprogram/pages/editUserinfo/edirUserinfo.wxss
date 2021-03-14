@@ -1,0 +1,5 @@
+/* miniprogram/pages/editUserinfo/edirUserinfo.wxss */
+.editUserInfo{margin-top: 40rpx;}
+.edirUserinfo-list-item{height: 100rpx; border-bottom: 1px #6495ED dashed; padding: 10rpx; display: flex; align-items: center; justify-content: space-between;}
+.edirUserinfo-list-tips{color: red; font-size: 12px;}
+.navigator-hover{ color: white; background-color: #6495ED;}

@@ -1,0 +1,15 @@
+/* miniprogram/pages/editUserinfo/head/head.wxss */
+image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin: 30rpx;
+}
+.more{
+  border-top: #6495ED dashed 1px;
+}
+.more image{
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+}

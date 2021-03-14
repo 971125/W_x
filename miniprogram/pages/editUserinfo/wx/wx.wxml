@@ -1,0 +1,3 @@
+<!--miniprogram/pages/editUserinfo/wx/wx.wxml-->
+<button bindtap="handleButton">设置微信号</button>
+<input value="{{wxnumber}}" type="text" bindinput="handleText"></input>

@@ -1,0 +1,5 @@
+/* miniprogram/pages/editUserinfo/phone/phone.wxss */
+input{
+  border: black 1px dashed;
+  border-left: none;
+}

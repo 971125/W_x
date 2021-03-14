@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/near/near",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/editUserinfo/edirUserinfo",
+    "pages/friendList/firendList",
+    "pages/detail/detail",
+    "pages/editUserinfo/head/head",
+    "pages/editUserinfo/name/name",
+    "pages/editUserinfo/sign/sign",
+    "pages/editUserinfo/location/location",
+    "pages/editUserinfo/phone/phone",
+    "pages/editUserinfo/wx/wx"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6495ED",
+    "navigationBarTitleText": "同城交友",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#6495ED",
+    "list": [
+      {
+        "iconPath": "images/tabbar/shouye.png",
+        "selectedIconPath": "images/tabbar/shouye1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/tabbar/address.png",
+        "selectedIconPath": "images/tabbar/address1.png",
+        "pagePath": "pages/near/near",
+        "text": "附近"
+      },
+      {
+        "iconPath": "images/tabbar/youjian.png",
+        "selectedIconPath": "images/tabbar/youjian1.png",
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "iconPath": "images/tabbar/wode.png",
+        "selectedIconPath": "images/tabbar/wode1.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
